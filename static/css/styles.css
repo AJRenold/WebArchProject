@@ -1,0 +1,89 @@
+/* Styles overriding bootstrap.css */
+
+body {
+
+	font-family: 'Cutive Mono', serif;
+	background-color:#555555;
+}
+
+p {
+	color:#FFFFFF;
+}
+
+h1,h2,h3,label,li,a,td {
+	color:#FFFFFF;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  	color: #F3F315;
+ 	background-color: #111111;
+}
+
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > li > a:hover {
+  	color: #F3F315;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+	color: #555;
+	background-color: white;
+	border: 1px solid #DDD;
+	border-bottom-color: #F3F315;
+}
+
+
+.nav-tabs {
+border-bottom: none;
+}
+
+label {
+
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  text-rendering: optimizelegibility;
+
+}
+
+@media (min-width: 980px) {
+
+.row-fluid .span4 {
+
+        min-height: 350px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+#column3 {
+	float: none;
+	padding-left: 140px;
+	width: 45%
+
+}
+.row-fluid .span4 {
+
+        min-height: 275px;
+}
+}
+
+@media (max-width: 767px) {
+
+.row-fluid .span4 {
+
+        min-height: 150px;
+}
+}
+
+@media (max-width: 480px) {
+
+.row-fluid .span4 {
+        min-height: 150px;
+}
+}
+
+
+
