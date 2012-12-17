@@ -9,4 +9,4 @@ This Project Includes:
   /logs - server and cookie logs from the web server
   /mrjob - Map Reduce jobs to analyze server logs
   /static/css - JavaScript and CSS files
-  /templates - html templates used by Flask
+  /templates - html templates used by Flask web server
